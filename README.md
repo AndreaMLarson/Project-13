@@ -6,7 +6,7 @@ Automated ELK Stack Deployment - Azure
 The files in this repository were used to configure the network depicted below.
 
 <<<<<<< HEAD
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png) TEST TEST TEST TO TEST
+![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 =======
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 >>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
@@ -15,7 +15,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
 This document contains the following details:
-- Description of the Topologuy
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -39,17 +39,19 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box   | Gateway  | 10.0.0.4   | Git Bash         |
+| Web-1      | Client   | 10.0.0.5   | Git Bash         |
+| Web-2      | Client   | 10.0.0.6   | Git Bash         |
+| Web-3      | Client   | 10.0.0.7   | Git Bash         |
+| Elk-Server | Gateway  | 10.0.0.7   | Git Bash         |
+
 
 ### Access Policies
 
 <<<<<<< HEAD
 The machines on the internal network are not exposed to the public Internet.
 =======
-The machines on the internal network are not exposed to the public Internet. 
+The machines on the internal network are not exposed to the public Internet.
 >>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
 
 Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
@@ -94,7 +96,7 @@ These Beats allow us to collect the following information from each machine:
 <<<<<<< HEAD
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 =======
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 >>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
 
 SSH into the control node and follow the steps below:
