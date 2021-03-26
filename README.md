@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 <<<<<<< HEAD
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 =======
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png) Images\Virtual Machines.png
+![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 >>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
@@ -52,13 +52,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 <<<<<<< HEAD
 The machines on the internal network are not exposed to the public Internet.
 =======
-The machines on the internal network are not exposed to the public Internet.
->>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the host machine IP address.
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by ssh from the Jump-Box virtual machine.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.
