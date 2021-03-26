@@ -6,7 +6,7 @@ Automated ELK Stack Deployment - Azure
 The files in this repository were used to configure the network depicted below.
 
 <<<<<<< HEAD
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![TODO: Update the path with the name of your diagram]\Diagram\Cloud Security Diagram.png
 =======
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 >>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
@@ -53,7 +53,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet.
 =======
 
-Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the host machine IP address.
+Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the workstation IP address. (Home network IP in this scenario)
 
 Machines within the network can only be accessed by ssh from the Jump-Box virtual machine.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
