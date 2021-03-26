@@ -6,7 +6,8 @@ Automated ELK Stack Deployment - Azure
 The files in this repository were used to configure the network depicted below.
 
 <<<<<<< HEAD
-![TODO: Update the path with the name of your diagram]\Diagram\Cloud Security Diagram.png
+![TODO: Update the path with the name of your diagram](C:\Users\larso\Documents\GitHub\Project-13\Diagrams\Cloud Security Diagram.png
+  \Diagram\Cloud Security Diagram.png
 =======
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 >>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
