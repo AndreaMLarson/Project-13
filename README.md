@@ -6,14 +6,10 @@ Automated ELK Stack Deployment - Azure
 The files in this repository were used to configure the network depicted below.
 
 <<<<<<< HEAD
-![TODO: Update the path with the name of your diagram]
-=======<a href="{{url}}">{{text}}</a>
-
-
-{(https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png){{Cloud Security Diagram}}</a>
-}>>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
 
 [Cloud Security Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png)
+[ELK Stack Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/ELK-Stack.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
