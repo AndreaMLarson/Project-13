@@ -8,6 +8,7 @@ The files in this repository were used to configure the network depicted below.
 <<<<<<< HEAD
 
 [Cloud Security Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png)
+
 [ELK Stack Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/ELK-Stack.png)
 
 
