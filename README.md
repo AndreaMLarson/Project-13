@@ -68,20 +68,20 @@ Load balancing ensures that the application will be highly available, performant
 - _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
 A load balancer receives traffic that comes into the website and distributes it across multiple servers to "balance" the "load" that is put on each server. +++Load balancers offer a health probe function to regularly check all the machines behind the load balancer. Machines with issues are reported, and the load balancers stop sending traffic to those machines. Load Balancers also help distribute traffic evenly across the servers and mitigates DoS attacks.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
 - _TODO: What does Filebeat watch for?_   Filebeat is a lightweight shipper for forwarding and centralizing log data. It monitors the log files, (or designated locations) collects log events, and forwards them to Elasticsearch for indexing.
-- _TODO: What does Metricbeat record?_ Metricbeat is a lightweight shipper that you can install on your servers to collect metrics from the operating system and services running on the server. It takes the metrics and statistics that it collects and ships them to  Elasticsearch
+- _TODO: What does Metricbeat record?_ Metricbeat is a lightweight shipper that collects metrics from the operating system and from services running on the server (such as "up-time", CPU usage, and memory usage) and ships these metrics to Elasticsearch.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name       | Function | IP Address | Operating System |
 |------------|----------|------------|------------------|
-| Jump Box   | Gateway     | 10.0.0.4   | Linux            |
-| Web-1      | Client      | 10.0.0.5   | Linux            |
-| Web-2      | Client      | 10.0.0.6   | Linux            |
-| Web-3      | Client      | 10.0.0.7   | Linux            |
-| Elk-Server | Monitoring  | 10.1.0.4   | Linux            |
+| Jump Box   | Gateway     | 10.0.0.4   | Linux         |
+| Web-1      | Client      | 10.0.0.5   | Linux         |
+| Web-2      | Client      | 10.0.0.6   | Linux         |
+| Web-3      | Client      | 10.0.0.7   | Linux         |
+| Elk-Server | Monitoring  | 10.1.0.4   | Linux         |
 
 
 ### Access Policies
@@ -94,6 +94,7 @@ Only the Jump-Box machine can accept connections from the Internet. Access to th
 
 Machines within the network can only be accessed by ssh from the Jump-Box virtual machine.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Jump Box
 
 A summary of the access policies in place can be found in the table below.
 
