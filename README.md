@@ -9,7 +9,7 @@ The files in this repository were used to configure the network depicted below.
 ![](Images/docker-ps-output.png)
 ![](Diagrams/Cloud Security Diagram.png)
 
-(C:\Users\larso\Documents\GitHub\Project-13\Diagrams\Cloud-Security-Diagram.png)
+[](https://github.com/AndreaMLarson/Project-13/blob/18247673a736fa52affed0d5ed49d4a9ce214e9b/Diagrams/Cloud-Security-Diagram.png)
 
 [](Diagrams/Cloud-Security-Diagram.png)
 
