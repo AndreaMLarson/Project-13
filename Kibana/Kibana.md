@@ -16,8 +16,6 @@
 
         ![](Images/sampledata.png)
 
-        ![](Kibana/Images/sampledata.png)
-
     - Click **View Data** to pull up the dashboard.
 
         ![](Images/view-data.png)
@@ -35,7 +33,7 @@
 
        - **Example Answer:** 66
 
-        ![](Kibana/Images/cn mac osx.png)
+        ![](/Images/cn mac osx.png)
 
     - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
 
