@@ -4,9 +4,8 @@ Step 1: Shadow People
 - 1. Create a secret user named sysd. Make sure this user doesn't have a home folder created:
   - sudo useradd --system --no-create-home sysd
 
-[](/Linux/Images/AB-1-create-user.png)
-
-[](Linux/Images/AB-1-create-user.png)
+![](/Linux/Images/AB-1-create-user.png)
+![](Linux/Images/AB-1-create-user.png)
 
 - 2. Give your secret user a password:
   - Sudo passwd sysd
