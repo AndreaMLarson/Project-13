@@ -1,40 +1,41 @@
 # Linux Systems Administration
 
 
-###Step 1: Ensure/Double Check Permissions on Sensitive Files
+##Step 1: Ensure/Double Check Permissions on Sensitive Files
 
 ![](/Linux/Images/AB-1-create-user.png)
 
 
 1. Permissions on `/etc/shadow` should allow only `root` read and write access.
 
+
 ![](/Linux/Images/LSA1.1-access.png)
 
-    - Command to inspect permissions :
+
+- Command to inspect permissions :
 ls -l /etc/shadow
 
-    - Command to set permissions (if needed):
-        sudo chmod 600 /etc/shadow
+- Command to set permissions (if needed):
+sudo chmod 600 /etc/shadow
 
 
 2. Permissions on `/etc/gshadow` should allow only `root` read and write access.
 
 ![](/Linux/Images/LSA1.2-write-access.png)
 
-    - Command to inspect permissions:
+- Command to inspect permissions:
 ls -l /etc/gshadow
 
+- Command to set permissions (if needed):
+sudo chmod 600 /etc/gshadow
 
-    - Command to set permissions (if needed):
-        sudo chmod 600 /etc/gshadow
 
-
-3. Permissions on `/etc/group` should allow `root` read and write access, and allow everyone else read access only.   ls
+3. Permissions on `/etc/group` should allow `root` read and write access, and allow everyone else read access only.   
 
 ![](/Linux/Images/LSA-1.3-group-access.png)
 
-    - Command to inspect permissions:
-        ls -l /etc/group
+- Command to inspect permissions:
+ls -l /etc/group
 
 
 - Command to set permissions (if needed):
@@ -46,15 +47,15 @@ sudo chmod 644 /etc/group
 ![](/Linux/Images/LSA-1.4-root-access.png)
 
 
-    - Command to inspect permissions:
+- Command to inspect permissions:
 ls -l /etc/passwd
 
 
-    - Command to set permissions (if needed):
-        sudo chmod 644 /etc/passwd
+- Command to set permissions (if needed):
+sudo chmod 644 /etc/passwd
 
 
-###Step 2: Create User Accounts
+##Step 2: Create User Accounts
 
 
 1. Add user accounts for `sam`, `joe`, `amy`, `sara`, and `admin`.
@@ -64,7 +65,7 @@ ls -l /etc/passwd
 ![](/Linux/Images/LSA-2.1-admin.png)
 
 
-    - Command to add each user account (include all five users):
+- Command to add each user account (include all five users):
 sudo adduser sam
 sudo adduser joe
 sudo adduser amy
@@ -76,19 +77,19 @@ sudo adduser admin (enter password)
 
 ![](/Linux/Images/LSA-2.2-access.png)
 
-  - Command to add `admin` to the `sudo` group:
+- Command to add `admin` to the `sudo` group:
 sudo usermod -aG sudo admin
 
 
 ![](/Linux/Images/LSA-2.2-sudo-admin.png)
 
-###Step 3: Create User Group and Collaborative Folder
+##Step 3: Create User Group and Collaborative Folder
 
 1. Add an `engineers` group to the system.
 
   ![](/Linux/Images/LSA-3.1-engineers.png)
 
-    - Command to add group:
+- Command to add group:
 sudo addgroup engineers
 
 
@@ -97,7 +98,7 @@ sudo addgroup engineers
   ![](/Linux/Images/LSA-3.2-users.png)
 
 
-    - Command to add users to `engineers` group (include all four users):
+- Command to add users to `engineers` group (include all four users):
 sudo usermod -aG engineers sam
 sudo usermod -aG engineers joe
 sudo usermod -aG engineers amy
@@ -117,13 +118,13 @@ Confirming users are in the engineers group
 
   ![](/Linux/Images/LSA-3.3-mkdir-engineers.png)
 
-    - Command to create the shared folder:
-        sudo mkdir engineers
+- Command to create the shared folder:
+sudo mkdir engineers
 
 
 4. Change ownership on the new engineers' shared folder to the `engineers` group.
 
-    - Command to change ownership of engineer's shared folder to engineer group:
+- Command to change ownership of engineer's shared folder to engineer group:
 sudo chown -R :engineers /home/engineers
 sudo chown root /home/engineers
 
@@ -154,8 +155,6 @@ sudo lynis audit system  to run the audit
   ![](/Linux/Images/LSA-4.3-sudo-lynis-audit.png)  
 
 
-
-
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
 
@@ -166,7 +165,7 @@ sudo lynis audit system  to run the audit
 
   ![](/Linux/Images/LSA-4.4-output-2.png)  
 
-####Bonus
+##Bonus
 
 
 1. Command to install chkrootkit:
@@ -181,7 +180,7 @@ sudo apt install chkrootkit
 
 
 3. Command to run expert mode:
-sudo /usr/sbin/chkrootkit -x   or     sudo chkrootkit -x (depending on where you are)
+sudo /usr/sbin/chkrootkit -x   or  sudo chkrootkit -x (depending on where you are)
 
 
 4. Provide a report from the chrootkit output on what can be done to harden the system.
