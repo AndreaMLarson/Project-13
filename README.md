@@ -4,6 +4,7 @@ Automated ELK Stack Deployment - Azure
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
+![](Diagrams/Cloud Security Diagram.png)
 
 ![Cloud Security Diagram](Diagrams/Cloud Security Diagram.png)
 
