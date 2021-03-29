@@ -97,9 +97,13 @@ The following screenshot displays the result of running `docker ps` after succes
 
   ![](Images/india-unique.png)
 
-![Images\docker_ps_output]
+![Images/docker_ps_output]
 
 ![C:\Users\larso\Documents\GitHub\Project-13\Images]
+
+![Kibana\Images\view-data.png]
+
+![Kibana\Images\view-data.png]
 
 ### Target Machines & Beats
 This ELK server (IP 10.1.0.4) is configured to monitor the following machines:
