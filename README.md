@@ -123,8 +123,8 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
   - It is updated on the hosts file. Add a group called "elk" into web servers followed by the IP address for the ELK Server (IP 10.1.0.4) /ansible/hosts.txt
-  
-![Ansible Hosts File](Ansible/ansible hosts file.txt)
+
+![Ansible Hosts File](https://github.com/AndreaMLarson/Project-13/blob/main/Ansible/ansible%20hosts%20file.txt)
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
   - Kibana Application http://52.165.189.66:5601/
