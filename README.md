@@ -52,7 +52,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the workstation IP address. (Home network IP in this scenario.)
 
 Machines within the network can only be accessed by ssh from the Jump-Box virtual machine.
-- Which machine did you allow to access your ELK VM? What was its IP address?_
+- Which machine did you allow to access your ELK VM? What was its IP address?
   - Workstation Public IP
 
 
@@ -68,12 +68,12 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible?_
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous.
+- What is the main advantage of automating configuration with Ansible?
   - The main advantage is configuration management and provisioning
 
 The playbook implements the following tasks:
-- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
   - Install docker.io
   - Install pip3
   - Install docker python module
@@ -86,7 +86,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server (IP 10.1.0.4) is configured to monitor the following machines:
-- List the IP addresses of the machines you are monitoring_
+- List the IP addresses of the machines you are monitoring
   - Web-1: 10.0.0.5
   - Web-2: 10.0.0.6
   - Web-3: 10.0.0.7
@@ -121,7 +121,7 @@ SSH into the control node and follow the steps below:
 - Where do you copy it?
   - /etc/ansible
 
-- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
   - It is updated on the hosts file. Add a group called "elk" into web servers followed by the IP address for the ELK Server (IP 10.1.0.4) /ansible/hosts.txt
 
 ![Ansible Hosts File](https://github.com/AndreaMLarson/Project-13/blob/main/Ansible/ansible%20hosts%20file.txt)
@@ -129,5 +129,5 @@ SSH into the control node and follow the steps below:
 - Which URL do you navigate to in order to check that the ELK server is running?
   - Kibana Application http://52.165.189.66:5601/
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
   - ansible-playbook *.yml nano hosts nano ansible.cfg nano *.yml
