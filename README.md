@@ -86,11 +86,16 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+
 (/Images/docker%20ps%20output.png)
+
 (https://github.com/AndreaMLarson/Project-13/blob/main/Images/docker%20ps%20output.png)
+
 (Images\docker-ps-output.png)
+
 (C:\Users\larso\Documents\GitHub\Project-13\Images\docker-ps-output.png)
 
+[Images\docker-ps-output.png]
 
 ### Target Machines & Beats
 This ELK server (IP 10.1.0.4) is configured to monitor the following machines:
