@@ -87,7 +87,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
-![](Images/sampledata.png)
+![](Images/docker-ps-output.png)
 
 ![Project-13/Images/docker_ps_output.png]
 
