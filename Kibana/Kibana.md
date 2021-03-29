@@ -39,18 +39,23 @@
 
         - **Example Answer:** 404: 6.667% and 503: 13.333%
       On 3/27 2.10% of visitors reached a 404 error and 2.10% reached a 503 error  
+
        ![](Kibana/Images/status-3-27.png)
 
        On 3/28 from 12:00am to 4:00am 2.63% visitors received a 404 error
+
         ![](Kibana/Images/status-3-28-0-4.png)
 
       On 3/28 from 4:00am to 8:00am 6.32% of visitors reached a 404 error and 3.79% of users reached a 503 error
+
         ![](Kibana/Images/status-3-28-4-8.png)
 
       On 3/28 from 8:00am to 12:00pm 5.12% of users reached a 404 error and 2.56 reached a 503 error
+
         ![](Kibana/Images/status-3-28-8-12.png)
 
       On 3/28 from 12:00pm to 12:00am visitors did not receive any errors
+
         ![](Kibana/Images/status-3-28-12-24.png)
 
     - In the last 7 days, what country produced the majority of the traffic on the website?
@@ -62,6 +67,7 @@
           - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
 
               - **Example Answer:** 12 p.m. and 1 p.m. (hours 12 and 13)
+              
           ![](Images/most-traffic2.png)
 
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
