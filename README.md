@@ -8,8 +8,6 @@ The files in this repository were used to configure the network depicted below.
 
 [Cloud Security Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png)
 
-[Cloud Security-Diagram.png](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png)
-
 [ELK Stack Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/ELK-Stack.png)
 
 
@@ -52,9 +50,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 ### Access Policies
 
-<<<<<<< HEAD
 The machines on the internal network are not exposed to the public Internet.
-=======
 
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the workstation IP address. (Home network IP in this scenario.)
 
@@ -77,7 +73,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible?_
-  - The main advantage is configuration management and provisioning 
+  - The main advantage is configuration management and provisioning
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
@@ -90,7 +86,8 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
+(/Images/docker%20ps%20output.png)
+(https://github.com/AndreaMLarson/Project-13/blob/main/Images/docker%20ps%20output.png)
 
 ### Target Machines & Beats
 This ELK server (IP 10.1.0.4) is configured to monitor the following machines:
@@ -110,10 +107,7 @@ Metricbeat: collects metrics from the operating system and from services running
 
 
 ### Using the Playbook
-<<<<<<< HEAD
 
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
->>>>>>> e4870a4dec014c91e59fa25e148a733617734e10
 
 SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/Ansible
