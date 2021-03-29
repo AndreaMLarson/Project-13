@@ -16,6 +16,8 @@
 
         ![](Images/sampledata.png)
 
+        ![](Kibana/Images/sampledata.png)
+
     - Click **View Data** to pull up the dashboard.
 
         ![](Images/view-data.png)
@@ -67,7 +69,7 @@
           - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
 
               - **Example Answer:** 12 p.m. and 1 p.m. (hours 12 and 13)
-              
+
           ![](Images/most-traffic2.png)
 
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
