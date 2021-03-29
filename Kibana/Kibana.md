@@ -6,19 +6,19 @@
 
     - You can import it by clicking **Try our sample data**.
 
-        ![](Images/Welcome.png)
+![](Images/Welcome.png)
 
     - Or you can import it from the homepage by clicking on **Load a data set and a Kibana dashboard** under **Add sample data**.
 
-        ![](Images/add-data.png)
+![](Images/add-data.png)
 
     - Click **Add Data** under the **Sample Web Logs** data pane.
 
-        ![](Images/sampledata.png)
+![](Images/sampledata.png)
 
     - Click **View Data** to pull up the dashboard.
 
-        ![](Images/view-data.png)
+![](Images/view-data.png)
 
 2. Answer the following questions:
 
@@ -26,21 +26,21 @@
 
        - **Example Answer:** 252
 
-        ![](/Images/unique visitors.png)
+![](Kibana/Images/unique visitors.png)
 
 
     - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
 
        - **Example Answer:** 66
 
-        ![](/Images/cn mac osx.png)
+![](Kibana/Images/cn mac osx.png)
 
     - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
 
         - **Example Answer:** 404: 6.667% and 503: 13.333%
       On 3/27 2.10% of visitors reached a 404 error and 2.10% reached a 503 error  
 
-       ![](Kibana/Images/status-3-27.png)
+![](Kibana/Images/status-3-27.png)
 
        On 3/28 from 12:00am to 4:00am 2.63% visitors received a 404 error
 
@@ -67,8 +67,6 @@
           - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
 
               - **Example Answer:** 12 p.m. and 1 p.m. (hours 12 and 13)
-
-          ![](Images/most-traffic2.png)
 
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
 
