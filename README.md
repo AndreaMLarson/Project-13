@@ -108,9 +108,10 @@ Metricbeat: collects metrics from the operating system and from services running
 SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/Ansible
 - Update the hosts file to include VMs IP Addresses:
-10.0.0.7 ansible_python_interpreter=/usr/bin/python3
-10.0.0.6 ansible_python_interpreter=/usr/bin/python3
-10.0.0.5 ansible_python_interpreter=/usr/bin/python3
+
+  - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
+  - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
+  - 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 
 - Run the playbook, and navigate to the ELK Server (IP 10.1.0.4) and run curl localhost/setup.php to check that the installation worked as expected.
 
@@ -126,5 +127,5 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running?
   - Kibana Application http://52.165.189.66:5601/
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
   - ansible-playbook *.yml nano hosts nano ansible.cfg nano *.yml
