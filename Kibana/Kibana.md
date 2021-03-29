@@ -1,5 +1,4 @@
 # Kibana
-Automated ELK Stack Deployment - Azure
 
 ## Exploring Kibana
 
@@ -8,7 +7,6 @@ Automated ELK Stack Deployment - Azure
     - You can import it by clicking **Try our sample data**.
 
         ![](Images/Welcome.png)
-         ![Cloud Security Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png)
 
     - Or you can import it from the homepage by clicking on **Load a data set and a Kibana dashboard** under **Add sample data**.
 
@@ -160,23 +158,3 @@ Automated ELK Stack Deployment - Azure
         - **Example Answer:** The main concern is the referral link from Facebook, as it's probably not within compliance to post package update links on Facebook.
 
         - This user could be further investigated and monitored for suspicious activity.
-
-
-
-
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
-### Target Machines & Beats
-This ELK server (IP 10.1.0.4) is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
-Web-1: 10.0.0.5
-Web-2: 10.0.0.6
-Web-3: 10.0.0.7
-
-We have installed the following Beats on these machines:
-Filebeat
-Metricbeat
-
-These Beats allow us to collect the following information from each machine:
-Filebeat: collects and ships log files to Elasticsearch for indexing.
-Metricbeat: collects metrics from the operating system and from services running on the server (such as "up-time", CPU usage, and memory usage) and ships these metrics to Elasticsearch.

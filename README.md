@@ -5,11 +5,11 @@ Automated ELK Stack Deployment - Azure
 
 The files in this repository were used to configure the network depicted below.
 
-
+![](Diagrams/Cloud Security Diagram.png)
 [Cloud Security Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/Cloud%20Security%20Diagram.png)
 
 [ELK Stack Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/ELK-Stack.png)
-
+!(Diagrams/ELK-Stack.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -84,14 +84,8 @@ The playbook implements the following tasks:
   - Download and launch the docker ELK container:761
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
 ![](Images/docker-ps-output.png)
-
-![Project-13/Images/docker_ps_output.png]
-
-
+![](Images/install-elk-playbook.png)
 
 ### Target Machines & Beats
 This ELK server (IP 10.1.0.4) is configured to monitor the following machines:
@@ -110,9 +104,10 @@ Filebeat: collects and ships log files to Elasticsearch for indexing.
 Metricbeat: collects metrics from the operating system and from services running on the server (such as "up-time", CPU usage, and memory usage) and ships these metrics to Elasticsearch.
 
 
+[ELK Stack Diagram](https://github.com/AndreaMLarson/Project-13/blob/main/Diagrams/ELK-Stack.png)
+![](Diagrams/ELK-Stack.png)
+
 ### Using the Playbook
-
-
 SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/Ansible
 - Update the hosts file to include VMs IP Addresses:
@@ -129,9 +124,10 @@ _TODO: Answer the following questions to fill in the blanks:_
   - /etc/ansible
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-  - It is updated on the hosts file. Add a group called "elk" into web servers followed by the IP address for the ELK server (IP 10.1.0.4) /ansible/hosts.txt
+  - It is updated on the hosts file. Add a group called "elk" into web servers followed by the IP address for the ELK Server (IP 10.1.0.4) /ansible/hosts.txt
+      - ![Ansible Hosts File](Ansible/ansible hosts file.txt)
 - _Which URL do you navigate to in order to check that the ELK server is running?
-  - Kibana http://52.165.189.66:5601/
+  - Kibana Application http://52.165.189.66:5601/
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-Run ansible-playbook your-playbook.yml
+  - ansible-playbook *.yml nano hosts nano ansible.cfg nano *.yml
