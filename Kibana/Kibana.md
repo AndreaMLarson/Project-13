@@ -40,24 +40,24 @@
 
   - On 3/28 from 12:00am to 4:00am 2.63% visitors received a 404 error
 
-        ![](Images/status-3-28-0-4.png)
+![](Images/status-3-28-0-4.png)
 
   - On 3/28 from 4:00am to 8:00am 6.32% of visitors reached a 404 error and 3.79% of users reached a 503 error
 
-        ![](Images/status-3-28-4-8.png)
+![](Images/status-3-28-4-8.png)
 
   - On 3/28 from 8:00am to 12:00pm 5.12% of users reached a 404 error and 2.56 reached a 503 error
 
-        ![](Images/status-3-28-8-12.png)
+![](Images/status-3-28-8-12.png)
 
   - On 3/28 from 12:00pm to 12:00am visitors did not receive any errors
 
-        ![](Images/status-3-28-12-24.png)
+![](Images/status-3-28-12-24.png)
 
 - In the last 7 days, what country produced the majority of the traffic on the website?
   - United States
 
-          ![](Images/traffic-majority.png)
+![](Images/traffic-majority.png)
 
 - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
   - 12 p.m. and 1 p.m. (hours 12 and 13)
@@ -74,21 +74,21 @@
 
   - **rpm:** `.rpm` file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
 
-       ![](Images/downloaded-files.png)
+![](Images/downloaded-files.png)
 
 3. Look at the chart that shows Unique Visitors Vs. Average Bytes.
 
-    ![](Images/users-vs-bytes.png)
+![](Images/users-vs-bytes.png)
 
 - Locate the time frame in the last 7 days with the most amount of bytes (activity).
   - In your own words, is there anything that seems potentially strange about this activity?
     - In our example, it seems strange that _4_ visitors are using a number of bytes that is considerably higher than all other usage.
 
-         ![](Images/usage.png)
+![](Images/usage.png)
 
 4. Filter the data by this event.
 
-     ![](Images/event-details.png)
+![](Images/event-details.png)
 
 - What is the timestamp for this event?
   - The time filter shows Mar 25, 2021 @ 16:55:00:0 -> March 25, 2021 17:00:00.0
