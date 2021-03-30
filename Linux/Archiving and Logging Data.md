@@ -3,9 +3,6 @@
 
 ## Step 1: Create, Extract, Compress, and Manage tar Backup Archives
 
-![](/Linux/Images/AB-1-create-user.png)
-
-
 1. Command to extract the TarDocs.tar archive to the current directory:
   - tar xvf TarDocs.tar    
 
@@ -29,7 +26,6 @@
   - Why wouldn't you use the options -x and -c at the same with tar?
     - -x is extract and -c is create   - so you’ll undo what you just did
 
-
 ________________
 
 
@@ -49,21 +45,15 @@ ________________
 
 ![](/Linux/Images/ALD-3.1-brace-exp.png)
 
-2. Paste your system.sh script edits below:#!/bin/bash
-
+2. Paste your system.sh script edits below:
 
 ![](/Linux/Images/ALD-3.2-nano.png)
-
 
 
 3. Command to make the system.sh script executable:
   - chmod +x system.sh
 
-
 ![](/Linux/Images/ALD-3.3-make-executable.png)
-
-
-
 
 ________________
 
@@ -103,14 +93,11 @@ ________________
 ## Step 6. Manage Log File Sizes
 1. Run sudo nano /etc/logrotate.conf to edit the logrotate configuration file.
 
-
 2. Configure a log rotation scheme that backs up authentication messages to the /var/log/auth.log.
 - Add your config file edits below:
+  - sudo nano /etc/logrotate.conf
 
-
-sudo nano /etc/logrotate.conf
-
-/var/log/auth.log {
+  - /var/log/auth.log {
     weekly
     rotate 7
     notifempty

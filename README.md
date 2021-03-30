@@ -28,13 +28,13 @@ Load balancing ensures that the application will be highly available, performant
 A load balancer receives traffic that comes into the website and distributes it across multiple servers to "balance" the "load" that is put on each server. +++Load balancers offer a health probe function to regularly check all the machines behind the load balancer. Machines with issues are reported, and the load balancers stop sending traffic to those machines. Load Balancers also help distribute traffic evenly across the servers and mitigates DoS attacks.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system files.
-- What does Filebeat watch for?_   
+- What does Filebeat watch for?  
   - Filebeat is a lightweight shipper for forwarding and centralizing log data. It monitors the log files, (or designated locations) collects log events, and forwards them to Elasticsearch for indexing.
-- What does Metricbeat record?_
+- What does Metricbeat record?
   -  Metricbeat is a lightweight shipper that collects metrics from the operating system and from services running on the server (such as "up-time", CPU usage, and memory usage) and ships these metrics to Elasticsearch.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
 | Name       | Function    | IP Address | Operating System |
 |------------|-------------|------------|------------------|
