@@ -24,7 +24,7 @@
 
 - Critical Analysis Question
   - Why wouldn't you use the options -x and -c at the same with tar?
-    - -x is extract and -c is create   - so you’ll undo what you just did
+    - -x is extract and -c is create  - so you’ll undo what you just did
 
 ________________
 
