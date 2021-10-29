@@ -184,4 +184,4 @@ Confirming users are in the engineers group
 4. Provide a report from the chrootkit output on what can be done to harden the system.
     - Screenshot of end of sample output:
 
-  ![](/Linux/Images/LSA-Bonus-output.png)      
+  ![](/Linux/Images/LSA-Bonus-output.png)     
