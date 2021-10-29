@@ -60,7 +60,7 @@
 ## Step 4: Crack All the Passwords
 1. SSH back to the system using your sysd account and port 2222:
 - ssh sysd@192.168.1.23 -p 22
-
+ 
 ![](/Linux/Images/AB-4.1-ssh-p222.png)
 
 2. Escalate your privileges to the root user. Use John to crack the entire /etc/shadow file:
